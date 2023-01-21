@@ -1,0 +1,11 @@
+#----------------------------------
+# Syntax colouring for demo Library
+#----------------------------------
+
+# Datatypes (such as obj)
+TestLib KEYWORD1
+
+#Functions
+sum KEYWORD2
+
+# Constants 
