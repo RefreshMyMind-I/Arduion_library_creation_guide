@@ -8,21 +8,26 @@ This repo will tell you how to create your own custom library.
     - add a .h and .cpp file to it by using (...) 3 dots which located at Right hand top corner under serial monitor.
     ![image](/assets/images/arduinodot.png "test")
     - name it whatever you want in my case TestLib.h and TestLib.cpp
+    ![image](/assets/images/tabsc.png "test")
     - in .h file create ifndef loop to check whetere your lib pre existed or not and name it whever you want.
+    ![image](/assets/images/checkavrversion.png "test")
     - now if you seed in my example code TestLib.h file we are checknig arduion version and define the lib.
     - creating a class to hold your variables.
     - ending the class with (;).
+    ![image](/assets/images/semicol.png "test")
     - ending the #ifndef by #endif
 
 2. Code in .cpp file 
     - you write you logic in .cpp file what operation you have to perform in my case it's additon.
     - you have to initialize the TestLib.h in .cpp file you created Like #include "TestLib.h"
+    ![image](/assets/images/cppfile.png "test")
     - To call the members of calls will be like this TestLib:: . 
     - In my case I'm creating a int called sum which will return addition of the two Varriables.
 
 
 3. calling the lib in main code
-    - initialize the lib by #include "TestLib.h" 
+    - initialize the lib by #include "TestLib.h"
+    ![image](/assets/images/maincode.png "test")
     - declared the type as TestLib  and it's name what you want to use in your code.
     - passing 2 int to call like this testlib.sum(1,2); testlib what we declared, sum is a function will return additon of two numbers.
 
