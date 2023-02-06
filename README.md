@@ -6,7 +6,7 @@ This repo will tell you how to create your own custom library.
 1. Open your arduion ide and create a normal ino file as you do for your projects.
  
     - add a .h and .cpp file to it by using (...) 3 dots which located at Right hand top corner under serial monitor.
-    ![image](/assets/Screenshot_3.png "test")
+    ![image](/assets/images/arduinodot.png "test")
     - name it whatever you want in my case TestLib.h and TestLib.cpp
     - in .h file create ifndef loop to check whetere your lib pre existed or not and name it whever you want.
     - now if you seed in my example code TestLib.h file we are checknig arduion version and define the lib.
