@@ -7,5 +7,7 @@ TestLib KEYWORD1
 
 #Functions
 sum KEYWORD2
-
+mul KEYWORD2
+sub KEYWORD2
+div KEYWORD2
 # Constants 
