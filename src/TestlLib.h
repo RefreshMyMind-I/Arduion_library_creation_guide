@@ -15,7 +15,9 @@ public: // these are the public varriables.
     TestLib(bool message); //simple bool state if it's true it will output sum if it's fall it will output nothing. 
     
     int sum(int x, int y); // sum varriable declared int sum, int x, int y,
-    
+    int sub(int x, int y);
+    int mul(int x, int y);
+    float div(float x, float y);
 
 private:
 }; // end of class, class has to end with ;.
