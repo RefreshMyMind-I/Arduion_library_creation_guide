@@ -11,16 +11,16 @@ int TestLib::sum(int x, int y) // Performing addition of to int here declared va
     return x+y; // returning addition of two int to sum varriable.
 }
 
-int TestLib::sub(int x, int y);
+int TestLib::sub(int x, int y); // return type substraction of two int
 {
     return x-y;
 }
 
-int TestLib::mul(int x, int y);
+int TestLib::mul(int x, int y); // returns multiplication of two int
 {
     return x*y;
 }
-float TestLib::div(float x, float y)
+float TestLib::div(float x, float y) // return divsion of two int 
 {
     return x/y;
 }
