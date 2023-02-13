@@ -2,7 +2,7 @@
 
 TestLib::TestLib(bool messsage) // to get bool value from main code we check here.
 {
-}
+
 
 int TestLib::sum(int x, int y) // Performing addition of to int here declared varriable as before in .h file.
 {
@@ -23,4 +23,6 @@ int TestLib::mul(int x, int y) // returns multiplication of two int
 float TestLib::div(float x, float y) // return divsion of two int 
 {
     return x/y;
+}
+
 }
